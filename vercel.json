@@ -1,9 +1,5 @@
 {
-  "installCommand": "npm install --legacy-peer-deps",
-  "functions": {
-    "app/tools/blog-writer/page.tsx": {
-      "runtime": "edge",
-      "maxDuration": 60
-    }
-  }
+  "rewrites": [
+    { "source": "/", "destination": "/" }
+  ]
 }
