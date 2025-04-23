@@ -1,0 +1,8 @@
+export default function AiWriterPage() {
+  return (
+    <div className="p-10 text-center">
+      <h1 className="text-3xl font-bold">Welcome to AI Writer Tool</h1>
+      <p className="mt-4 text-gray-600">Here your AI Writer tool will appear.</p>
+    </div>
+  );
+}

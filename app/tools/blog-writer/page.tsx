@@ -1,4 +1,8 @@
 "use client";
+
+export const runtime = "edge";
+export const preferredRegion = "home";
+
 import { useState } from "react";
 
 export default function BlogWriter() {
