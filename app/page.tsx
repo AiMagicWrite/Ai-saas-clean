@@ -21,7 +21,7 @@ function ToolCard({ title, link, disabled }: ToolCardProps) {
 export default function Home() {
   return (
     <main className="grid grid-cols-1 md:grid-cols-2 gap-6 p-8">
-      <ToolCard title="AI Writer" link="/ai-writer" />
+      <ToolCard title="AI Writer" link="/tools/blog-writer" />
       <ToolCard title="Image Generator" link="/image-gen" />
       <ToolCard title="Coming Soon" link="#" disabled />
     </main>
